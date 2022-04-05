@@ -1,0 +1,16 @@
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #0D0D0D;
+    text-transform: uppercase;
+    &_left {
+        max-width: 800px;
+        font-size: 36px;
+        color: #FFFFFF;
+        text-align: left;
+    }
+}
