@@ -1,0 +1,42 @@
+@media (max-width: 1200px) {
+    .promo__header {
+        font-size: 38px;
+    }
+    .promo__subheader {
+        font-size: 20px;
+    }
+    .title {
+        font-size: 30px;
+    }
+    .consultation__descr {
+        font-size: 20px;
+    }
+    .feed-form {
+        width: 250px;
+        input {
+            height: 40px;
+        }
+    }
+    .carousel {
+        margin: 0 auto;
+        width: 750px;
+    }
+    .footer {
+        min-height: 550px;
+        margin-top: 25px;
+        &__info {
+            max-height: 250px;
+            max-width: 400px;
+        }
+    }
+    .button{
+        &_main {
+            width: 230px;
+            font-size: 14px;
+        }
+        &_submit {
+            height: 40px;
+            font-size: 13px;
+        }
+    }
+}
